@@ -176,3 +176,163 @@ cd -
 ls -a
 gedit .Rhistory
 cp ~/.history .
+ls -a
+git add .history
+git status
+git commit
+git push
+cd
+less .history
+less -n .history
+less -N .history
+man bash
+cd data/opentraveldata
+head optd_aircraft.csv
+head -n 30 optd_aircraft.csv
+cat -n optd_aircraft.csv
+head -n -450 optd_aircraft.csv
+head -450 optd_aircraft.csv
+tail optd_aircraft.csv
+tail -n -3 optd_aircraft.csv
+tail -n +3 optd_aircraft.csv
+wc optd_aircraft.csv
+wc -l optd_aircraft.csv
+wc -w optd_aircraft.csv
+wc -m optd_aircraft.csv
+wc -c optd_aircraft.csv
+echo "How much words do I have" 
+echo "How much words do I have" | wc -w
+echo "How much words do I have" | wc
+echo "How much words do I have" | wc | wc -w
+cat optd_aircraft.csv | wc 
+head optd_aircraft.csv | wc
+cat -n optd_aircraft.csv
+cat -n optd_aircraft.csv | head >first 10 lines.txt
+cat -n optd_aircraft.csv | head >first_10_lines.txt
+cat first_10_lines.txt
+head optd_aircraft.csv
+head -n optd_aircraft.csv
+rm first
+cat first_10_lines.txt
+cat -n optd_aircraft.csv | tail >> first_10_lines.txt
+cat first_10_lines.txt
+cat -n optd_aircraft.csv | head | tail -1
+cat -n optd_aircraft.csv | head | tail -1 > lin_num_10.txt
+cat lin_num_10.txt
+echo "This is the 10th line" >> lin_num_10.txt
+cat lin_num_10.txt
+echo "$(date)"
+echo "Timestamp:$(date)"
+echo "Timestamp:$(date)" >> lin_num_10.txt
+cat lin_num_10.txt
+wc -1 < lin_num_10.txt
+wc -l < lin_num_10.txt
+ls -a
+ls
+ls -l
+cat optd_por_public.csv
+ls -l
+ls -l optd_por_public.csv
+ls -l optd_por_public.csv > largest_file.txt
+cat largest_file.txt
+ls
+cd
+ls
+cd Documents
+ls
+cd
+cd repos
+ls
+cd 
+cd midirectorio
+ls
+cd
+cd first_dir
+ls
+cd
+cat Finn.txt
+cd data
+ls
+cd shell
+ls
+wc Finn.txt
+wc -w Finn.txt
+echo cat -n Text_example.txt | head -3 
+cat -n Text_example.txt | echo head -3 
+cat -n Text_example.txt | head -3 
+cd
+cd data
+ls
+cd opentraveldata
+ls
+ls -lS
+wc Finn.txt
+cd ../shell
+seq 1 10
+seq 1 2 10
+seq 1 2 10 > uniq_example.txt
+seq 1 10 >> uniq_example.txt
+cat uniq_example.txt
+uniq uniq_example.txt
+cat uniq_example.txt| uniq
+sort uniq_example.txt
+sort -n uniq_example.txt
+sort -n uniq_example.txt | uniq
+sort -nr uniq_example.txt
+sort -n uniq_example.txt
+sort -nu uniq_example.txt
+sort -nu uniq_example.txt | uniq -c
+sort -n uniq_example.txt | uniq -c
+sort -n uniq_example.txt | uniq -d
+cd -
+ls -l
+sort -t "^" -k 6r-6 optd_aircraft.csv
+sort -t "^" -k 6r,6 optd_aircraft.csv
+sort -t "^" -k 6r,6 optd_aircraft.csv | head
+sort -t "^" -k 2,2 -u optd_aircraft.csv | wc
+sort -t "^" -k 2 -u optd_aircraft.csv | wc
+head optd_aircraft.csv
+sort -t "^" 7,7
+sort -t "^" 7,7 -u optd_aircraft.csv
+sort -t "^" -k 7,7 -u optd_aircraft.csv
+cat optd_aircraft.csv
+cat -n optd_aircraft.csv
+cat -n optd_aircraft.csv | sort -t "^" -k 7,7 
+cat -n optd_aircraft.csv | sort -t "^" -k 7,7 | tail -2
+cat -n optd_aircraft.csv | sort -t "^" -k 7,7 | tail -2 | head -1
+sort -t "^" -k 7,7 | tail -2 | head -1
+sort -t "^" -k 7,7 optd_aircraft.csv | tail -2 | head -1
+cut -d "^" -f 1,3,5 optd_aircraft.csv | head 5
+cut -d "^" -f 1,3,5 optd_aircraft.csv | head -5
+head optd_aircraft.csv
+cut -d "^" -f 3 optd_aircraft.csv | head
+cut -d "^" -f 3 optd_aircraft.csv | sort | uniq | wc
+cut -d "^" -f 2 optd_aircraft.csv | sort | uniq | wc
+cut -d "^" -f 2 optd_aircraft.csv | sort | uniq | wc -l
+cut -d "^" --output-delimiter="," optd_aircraft.csv
+cut -d "^" -f 1,8 --output-delimiter="," optd_aircraft.csv
+cut -d "^" -f 1-8 --output-delimiter="," optd_aircraft.csv
+cut -d "^" -f 1-8 --output-delimiter="," optd_aircraft.csv > optd_aircraft_delimitador_nuevo.csv
+head optd_aircraft_delimitador_nuevo.csv
+echo "master data science" | tr a A
+echo "master data science" | tr ai ia
+echo "master         data       science" | tr -s " "
+echo "master         data       science" | tr -d " "
+head -1 optd_aircraft.csv
+head -1 optd_aircraft.csv | tr ^ \n
+head -1 optd_aircraft.csv | tr ^ ,
+head -1 optd_aircraft.csv | tr "^" "\n"
+head -1 optd_aircraft.csv | tr "^" "\n" | wc -l
+head -1 optd_por_public.csv | tr "^" "\n" | wc -l
+cd repos
+cd master_kschool
+git status
+cp 
+cp ~/.history
+cd
+ls
+ls -a
+cd repos/master_kschool
+ls -a
+cp ~/.history
+cp ~/.history .
