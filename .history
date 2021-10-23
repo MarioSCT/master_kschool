@@ -1,0 +1,178 @@
+ls
+echo "hola"
+echo hey world
+echo holi que tal
+echo $shell
+echo $SHELL
+echo $TERM
+date
+echo date
+echo $DATE
+echo $date
+echo $HISTORY
+variableexa = hola que tal
+variableexa=hola que tal
+variableexa=holaquetal
+echo $variableexa
+echo $(date)
+echo "Hoy es el dia $(date)"
+whoami
+echo "asdasd\
+linea 2\
+linea 3"
+echo "Soy la linea 1 \\
+linea 2 \\
+linea3"
+echo "\"\
+\
+''
+echo "Me gusta mucho \"100 años de soledad\", es guay"
+echo "uno\ndos"
+echo "uno\tdos"
+echo "C:\\\Users"
+echo "holi"; date
+cat \realesa
+cat \realeasa
+cat /etc/os-release
+cat /etc/
+cd /etc
+cd 
+cd /etc
+dir
+cd 
+pwd
+ls
+cat data/README.md
+cat data/shell/Finn.txt
+cat data/shell/Text_example.txt
+ls /
+ls
+cd data/shell
+dir
+cat
+dir
+ls
+cd 
+cd data/shell
+cd /
+ls
+cd 
+cd ..
+cd
+cd data/shell
+cd .
+cd ..
+cd
+ls -a
+ls -l
+ls -a-l
+clear
+ls -l
+chmod 777 books
+ls -l
+chmod 700 books
+ls -l
+chmod 707 books
+ls -l
+ls -al
+ls -tl
+ls -rtl
+ls -r
+ls -tl
+ls -S
+mkdir midirectorio
+touch midirectorio/nuevo_archivo
+ls -l midirectorio
+touch midirectorio/nuevo_archivo
+ls -l midirectorio
+mkdir -t midirectorio/dir2/dir3
+mkdir -p midirectorio/dir2/dir3
+ls -l midirectorio
+ls -l midirectorio/dir2
+ls --help
+ls --help --help
+cp
+mv
+rv
+rm
+cp data/shell/Text_example.txt nuevoejemplo.txt
+ls data/shell
+ls
+cp nuevoejemplo.txt midirectorio
+ls midirectorio
+rm nuevoejemplo.txt 
+ls midirectorio
+ls
+mkdir first_dir
+touch first_dir/text_file.txt
+cd first_dir
+chmod 221 text_file.txt
+mkdir sub1
+mkdir sub2
+mkdir text_file
+ls
+cp text_file.txt sub1
+chmod 777 text_file.txt
+cp text_file.txt sub1
+ls sub1
+mv text_file.txt sub2/text_file.txt.2
+ls sub2
+cp -r sub1 sub3
+ls sub3
+cd ..
+ls
+mv first_dir/sub2/text_file.txt.2 first_dir/sub2/text_file.txt.backup
+ls first_dir
+ls first_dir/sub2
+cd first_dir
+ls
+rm -i sub2
+rm -d sub2
+rm -r sub2
+ls
+ls sub1
+cd
+git
+mkdir repos
+cd repos
+git config --global user.name "Mario"
+git config --global user.name "Mario Martínez"
+git config --global user.email "mariomartinezanalyst@gmail.com"
+git clone https://github.com/MarioSCT/master_kschool.git
+ls
+ls master_kschool
+cd master_kschool
+git diff
+git add README.md
+git status
+git commit
+git push
+echo hola
+echo $0
+bash
+echo $0
+sudo apt install gedit
+ls -a
+gedit .zshrc
+echo $EDITOR
+ls -a
+cat .history
+history
+history -30
+cd repos
+ls
+cd master_kschool
+git remote -v
+cd
+cat .gitconfig
+cd repos
+cd master_kschool
+ls
+git status
+cd 
+ls
+ls -a
+cd -
+ls -a
+gedit .Rhistory
+cp ~/.history .
